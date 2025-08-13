@@ -1,0 +1,80 @@
+<!-- HTML Essentials Module 4 Hands-on -->
+<!-- PROJECT: Sunnydale School: Webpage Enhancement -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnydale School</title>
+    <style>
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1e90ff;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+      }
+
+      #section__mission-statement {
+        color: #32cd32;
+      }
+
+      #section__upcoming-events {
+        color: #ffa07a;
+        background-color: #ffffe0;
+      }
+
+      #section__contact-us {
+        color: #20b2aa;
+      }
+
+      .outdoor {
+        background-color: #afeeee;
+        padding: 5px;
+        border: 1px solid #b0e0e6;
+      }
+
+      .section {
+        background-color: #f8f3f3;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sunnydale School</h1>
+    <p>
+      Welcome to Sunnydale School, dedicated to fostering a love of learning in
+      every student.
+    </p>
+
+    <h2 id="section__mission-statement">Mission Statement</h2>
+    <p>
+      Our mission is to provide a quality education that prepares all children
+      for a successful future.
+    </p>
+
+    <h2 id="section__upcoming-events">Upcoming Events</h2>
+    <ul>
+      <li data-event-type="indoor">
+        Science Fair -
+        <span style="font-weight: bold; color: red">June 10</span>
+      </li>
+      <li data-event-type="outdoor" class="outdoor">
+        Art Exhibition -
+        <span style="font-weight: bold; color: red">June 15</span>
+      </li>
+      <li data-event-type="outdoor" class="outdoor">
+        Sports Day - <span style="font-weight: bold; color: red">June 20</span>
+      </li>
+    </ul>
+
+    <div class="section">
+      <h2 id="section__contact-us">Contact Us</h2>
+      <p title="Click to copy email">Email: info@sunnydaleschool.com</p>
+      <p title="Click to copy phone number">Phone: 555-1234</p>
+      <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+    </div>
+  </body>
+</html>
